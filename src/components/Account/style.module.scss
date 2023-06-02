@@ -1,0 +1,21 @@
+.account {
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+  align-items: flex-start;
+  position: absolute;
+  right: 1.5rem;
+  top: 1rem;
+  min-height: 64px;
+  z-index: 10;
+  opacity: 0.9;
+
+  :global {
+    .ant-collapse-item {
+      background-color: #252525;
+      border: 2px solid #ff6b00 !important;
+      border-radius: 5px !important;
+      min-width: 250px;
+    }
+  }
+}

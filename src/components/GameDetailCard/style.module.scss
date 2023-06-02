@@ -1,0 +1,24 @@
+.gameDetailCard {
+  background: transparent;
+  width: 100%;
+  overflow: hidden;
+  border-radius: 12px;
+  box-shadow: 0px 24px 34px rgba(0, 0, 0, 0.25);
+
+  :global {
+    .ant-card-body {
+      padding: 0;
+
+      .blackjack {
+        background-image: url('../../assets/images/games/blackjack-bg.png');
+        background-size: cover;
+        background-position: center;
+      }
+      .blackjack-detail {
+        background-image: url('../../assets/images/games/blackjack-table.png');
+        background-size: cover;
+        background-position: center;
+      }
+    }
+  }
+}

@@ -1,0 +1,17 @@
+export enum CONNECT_WALLET_ERRORS {
+  NOT_INSTALLED = "NOT_INSTALLED",
+  CANNOT_ACCESS_ACCOUNT = "CANNOT_ACCESS_ACCOUNT",
+}
+
+export const CONNECT_WALLET_ERROR_MESSAGES: Record<
+  CONNECT_WALLET_ERRORS,
+  string
+> = {
+  [CONNECT_WALLET_ERRORS.NOT_INSTALLED]: "Metamask wallet is not installed",
+  [CONNECT_WALLET_ERRORS.CANNOT_ACCESS_ACCOUNT]: "Cannot access to account",
+};
+
+export enum TRANSACTION_ERRORS {
+  TRANSACTION_FAIL = "TRANSACTION ERROR",
+  INSUFFICIENT_FUNDS_FOR_GAS_FEE = "insufficient funds for gas and fee",
+}

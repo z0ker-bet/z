@@ -1,0 +1,52 @@
+.loadingCard {
+  position: relative;
+  width: 60px;
+  height: 60px;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+
+  :global {
+    .item {
+      width: 30px;
+      height: 30px;
+      position: absolute;
+      background-size: 30px 30px;
+      background-position: center;
+      background-repeat: no-repeat;
+      // background-color: #fff;
+    }
+
+    .item-1 {
+      // background-color: #fa5667;
+      top: 0;
+      right: 0;
+      z-index: 1;
+      background-image: url('../../assets/images/spinner/1.svg');
+    }
+
+    .item-2 {
+      // background-color: #7a45e5;
+      top: 0;
+      left: 0;
+      background-image: url('../../assets/images/spinner/3.svg');
+    }
+
+    .item-3 {
+      // background-color: #1b91f7;
+      bottom: 0;
+      left: 0;
+      z-index: 1;
+      background-image: url('../../assets/images/spinner/2.svg');
+    }
+
+    .item-4 {
+      // background-color: #fac24c;
+      bottom: 0;
+      right: 0;
+      background-image: url('../../assets/images/spinner/4.svg');
+    }
+  }
+}
